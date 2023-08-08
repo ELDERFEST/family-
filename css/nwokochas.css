@@ -9,7 +9,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgb(243, 238, 238);
 
 }
 
@@ -56,6 +55,7 @@ body {
 
 .menu-items ul li a{
     text-decoration: none;
+    color: white;
 }
 
 .active, .menu-items ul li:hover{
@@ -63,9 +63,9 @@ body {
     background-color: greenyellow;
 
 }
-/* .menu-items ul li:hover{ */
-    /* background-color: gray; */
-    /* color: yellow; */
-    /* height: 50px; */
-    /* width: 20px; */
-/* } */
+.menu-items ul li:hover{
+    background-color: gray;
+    color: yellow;
+    height: 50px;
+    width: 120px;
+}
